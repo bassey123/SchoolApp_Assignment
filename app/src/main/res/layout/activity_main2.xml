@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Main2Activity">
+
+    <TextView
+        android:id="@+id/t1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome to Starthub Academy"
+        android:textSize="26sp"
+        android:layout_marginTop="30dp"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:id="@+id/t2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/t1"
+        android:text="Please Select your class to view your results."
+        android:textSize="16sp"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"/>
+
+    <Button
+        android:id="@+id/b1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="JSS1"
+        android:textAllCaps="false"
+        android:textSize="20sp"
+        android:textColor="#fff"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/shape"
+        android:layout_below="@id/t2"/>
+
+    <Button
+        android:id="@+id/b2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="JSS2"
+        android:textAllCaps="false"
+        android:textSize="20sp"
+        android:textColor="#fff"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/shape"
+        android:layout_below="@id/b1"/>
+
+    <Button
+        android:id="@+id/b3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="JSS3"
+        android:textAllCaps="false"
+        android:layout_marginTop="30dp"
+        android:textSize="20sp"
+        android:textColor="#fff"
+        android:background="@drawable/shape"
+        android:layout_below="@id/b2"/>
+
+    <Button
+        android:id="@+id/b4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SSS1"
+        android:textAllCaps="false"
+        android:layout_marginTop="30dp"
+        android:textSize="20sp"
+        android:textColor="#fff"
+        android:background="@drawable/shape"
+        android:layout_below="@id/b3"/>
+
+    <Button
+        android:id="@+id/b5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SSS2"
+        android:textAllCaps="false"
+        android:layout_marginTop="30dp"
+        android:textSize="20sp"
+        android:textColor="#fff"
+        android:background="@drawable/shape"
+        android:layout_below="@id/b4"/>
+
+    <Button
+        android:id="@+id/b6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SSS3"
+        android:textAllCaps="false"
+        android:layout_marginTop="30dp"
+        android:textSize="20sp"
+        android:textColor="#fff"
+        android:background="@drawable/shape"
+        android:layout_below="@id/b5"/>
+
+</RelativeLayout>

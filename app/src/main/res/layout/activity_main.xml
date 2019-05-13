@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/bg2"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="StartHub Academy"
+        android:textSize="30sp"
+        android:textAlignment="center"
+        android:layout_marginTop="20dp"
+        android:textColor="#fff"
+        android:textStyle="bold"/>
+
+    <ImageView
+        android:layout_width="160sp"
+        android:layout_height="159dp"
+        android:layout_marginTop="26dp"
+        android:src="@drawable/logo6" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Username"
+        android:textAlignment="center"
+        android:layout_marginTop="30dp"
+        android:textColor="#fff"
+        android:textSize="20sp"/>
+
+    <EditText
+        android:id="@+id/user"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#fff"
+        android:textColor="#fff"
+        android:textCursorDrawable="@drawable/cursor"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Password"
+        android:textAlignment="center"
+        android:textColor="#fff"
+        android:layout_marginTop="10dp"
+        android:textSize="20sp"/>
+
+    <EditText
+        android:id="@+id/pas"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#fff"
+        android:textColor="#fff"
+        android:inputType="textPassword"
+        android:textCursorDrawable="@drawable/cursor"/>
+
+    <Button
+        android:id="@+id/btn"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="Sign In"
+        android:textAllCaps="false"
+        android:layout_marginTop="26dp"
+        android:textSize="20sp"
+        android:textColor="#fff"
+        android:background="@drawable/shape" />
+
+
+
+
+</LinearLayout>
